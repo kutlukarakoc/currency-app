@@ -192,3 +192,26 @@ hr{
     opacity: 1;
     transition: opacity 1s;
 }
+
+@media only screen and (max-width: 675px) {
+    .container{
+        max-width: 300px;
+        margin: 30% auto;
+    }
+
+    .toggle-container{
+        right: 25%;
+    }
+
+    .header{
+        margin: 40% auto;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .subtitle{
+        font-size: 15px;
+    }
+  }
