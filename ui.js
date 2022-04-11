@@ -42,7 +42,12 @@ window.addEventListener('load', () => {
             return headerAnim(500);
         })
         .then(() => {
-            header.style.margin = '20% auto';
+            let isMobile = window.matchMedia("only screen and (max-width: 675px)").matches;
+            if(!isMobile){
+                header.style.margin = '20% auto';
+            }else{
+                header.style.margin = '50% auto';
+            }
             return headerAnim(500);
         })
         .then(() => {
