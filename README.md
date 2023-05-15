@@ -1,5 +1,7 @@
 # Basic Currency App
 
-### Live Demo : https://kut-currency-app.netlify.app/
+### Live Demo : https://kut-currency-app.netlify.app/
 
-#### In this project, I used vanilla js to build this project.
+#### I used javascript to build this project and I used exchangerate-api to get currency informations.
+
+#### With this project, you can convert currencies to each other and see their values.
