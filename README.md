@@ -4,4 +4,4 @@
 
 #### I used javascript to build this project and I used exchangerate-api to get currency informations.
 
-#### With this project, you can convert currencies to each other and see their values.
+#### With this project, you can convert currencies to each other and see their values. In addition, there is a dark/light mode in the project.
